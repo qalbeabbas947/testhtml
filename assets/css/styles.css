@@ -90,7 +90,6 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    margin-right: 140px;
     gap: 1rem;
     justify-content: flex-end;
     
@@ -116,11 +115,48 @@
 .netizens-customer-service-logo div, .netizens-market-competitive-price-logo div, .netizens-customers-all-sizes-logo div {
     margin-top: 25px;
 }
+
+
 .netizens-about-section{
     height: 1095px;
     background-color: #F6F4FF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    border-bottom: 1px solid #C5C0DB;
+}
+.netizens-about-left{
+    width: 525px;
 }
 
+.netizens-about-right{
+    width: 631px;
+}
+
+.netizens-about-right h1{
+    font-size: 38px;
+    color: purple;
+    font-weight: bold;
+}
+
+.netizens-about-right h1{
+    font-size: 18px;
+    color: #535353;
+}
+.netizens-about-right-discover{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    margin: 20px 0px;
+    text-decoration: none;
+}
+.netizens-about-right-discover img{
+    padding-left: 10px;
+}
+.netizens-about-right span{
+    font-size: 20px;
+    color: #514688;
+}
 .banner-slider{
     float: right;
     vertical-align: bottom;
@@ -135,8 +171,89 @@
 .netizens-contact-us-section{
     height: 912px;
     background-color: #F6F4FF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    color: #535353;
+    border-bottom: 1px solid #C5C0DB;
+}
+.netizens-contact-us-section .netizens-contact-us-left{
+    width: 652px;
+    border-right: 1px solid #C5C0DB;
+
+}
+.netizens-contact-us-left h1{
+    color: purple;
+    font-size: 38px;
+}
+.netizens-contact-us-left p{
+    color: purple;
+    font-size: 26px;
+}
+.netizens-contact-facebook-button{
+    background-color: #33A382;
+    border-radius: 15px;
+    width: 160px;
+    height: 48px;
+    color: white;
+    padding: 5px 15px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.netizens-contact-us-section .netizens-contact-us-right{
+    width: 594px;
+    
+}
+.netizens-contact-us-right h3{
+    color: purple;
+    font-size: 25px;
+}
+.netizens-contact-us-right h1{
+    color: green;
+    font-size: 40px;
+    font-weight: bold;
+}
+.netizens-field-left, .netizens-field-right{
+    width: 48%;
+    margin: 10px 0px;
+}
+.netizens-form-row{
+
+    padding: 25px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
+.netizens-contact-us-field input {
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+    background-color: #F6F4FF;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 0px;
+    outline: 0;
+    border-bottom: 1px solid #a7a7a7;
+    border-radius: 5px;
+}
+.netizens-contact-us-field textarea {
+    position: relative;
+    background-color: #F6F4FF;
+    padding: 12px;
+    margin-top: 10px;
+    width: 100%;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 0px;
+    outline: 0;
+    border-bottom: 1px solid #a7a7a7;
+    border-radius: 5px;
+}
+.netizens-form-submit{
+    margin-top: 5px;
+}
 .netizens-footer-menu-section{
     height: 423px;
     background-color: #F6F4FF;
