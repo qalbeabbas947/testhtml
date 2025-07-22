@@ -1,0 +1,15 @@
+* {
+  border: 1px solid #ff0;
+  box-sizing: border-box;
+}
+
+.netizens-main-container {
+   margin: auto;
+   width: 100%;
+   background-color: white;
+   font-family: "Poppins", sans-serif; 
+   display: flex;
+   border-radius: 10px;
+   flex-direction: column;
+   flex-wrap: nowrap;
+}

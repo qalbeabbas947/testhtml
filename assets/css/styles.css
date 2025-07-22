@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.netizens-wrapper{
+    width: 100%;
+    height: 100%;
+    /* padding-top: 20px; */
+    background-color: #F5F5F5;
+}
+.netizens-main-container {
+   margin: auto;
+   width: 100%;
+   background-color: white;
+   font-family: "Poppins", sans-serif; 
+    border-radius: 10px;
+  
+}
+
+.netizens-phone-header-section{
+    
+    display: flex;
+    flex-direction: rows;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    background-color: #33A382;
+    height: 54px;
+    color: white;
+    align-items:center
+}
+
+.netizens-phone-header-section a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10%;
+}
+.netizens-phone{
+    text-align: right;
+    flex-grow: 1;
+}
+
+.netizens-contact-top{
+    /* margin-left: 40px; */
+    flex-grow: 1;
+}
+.netizens-contact-top img{
+    padding-left: 40px;
+}
+.netizens-top-right{
+    text-align: right;
+    flex-grow: 3;
+}
+  
+.netizens-top-right ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 140px;
+    gap: 1rem;
+    justify-content: flex-end;
+
+}
+/*****************************************************************/
+.netizens-header-section{
+    height: 110px;
+    background-color: #ECE8FF;
+    display: flex;
+    justify-content:space-around;align-items: center;
+}
+
+.netizens-top-menu ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 140px;
+    gap: 1rem;
+    justify-content: flex-end;
+    
+}
+
+.netizens-top-menu a{
+    text-decoration: none;
+}
+
+.netizens-top-right-icons ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 140px;
+    gap: 1rem;
+    justify-content: flex-end;
+    
+}
+
+/*****************************************************************/
+.netizens-banner-section{
+    height: 722px;
+    background: url(../images/banner-1.png);
+}
+
+.netizens-rating-section{
+    height: 210px;
+    background-color: #33A382;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.netizens-customer-service-logo div, .netizens-market-competitive-price-logo div, .netizens-customers-all-sizes-logo div {
+    margin-top: 25px;
+}
+.netizens-about-section{
+    height: 1095px;
+    background-color: #F6F4FF;
+}
+
+.banner-slider{
+    float: right;
+    vertical-align: bottom;
+    margin-top: 600px;
+    margin-right: 75px;
+}
+.banner-slider div{
+    display: inline-block;
+    margin: 10px;
+}
+
+.netizens-contact-us-section{
+    height: 912px;
+    background-color: #F6F4FF;
+}
+
+.netizens-footer-menu-section{
+    height: 423px;
+    background-color: #F6F4FF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: #535353;
+    border-top: 1px #514688 solid;
+}
+.netizens-footer-menu-section a{ 
+    color: #535353;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.netizens-footer-menu-section ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    text-align: left;
+}
+.iso-text{
+    margin: 25px;
+}
+.netizens-footer-menu-section h3{ 
+    color: #535353;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+.netizens-footer-section{
+    height: 78px;
+    background-color: #33A382;
+    font-size: 14px;
+    vertical-align: middle;
+    padding-left: 85px;
+    color: white;
+    line-height: 6;
+}
+
+/**********************************************************/
+
+/*********************************************************/
