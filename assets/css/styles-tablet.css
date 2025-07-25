@@ -1,11 +1,91 @@
 * {
-  border: 1px solid #f00;
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.netizens-wrapper{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    /* padding-top: 20px; */
+    background-color: #F5F5F5;
+}
+.netizens-about-section {
+  width: 100%;
 }
 
-.netizens-main-container {
-   font-family: "Poppins", sans-serif; 
-   display: flex;
-   flex-direction: column;
-   flex-wrap: nowrap;
+.netizens-banner-section {
+    height: 522px;
+    background: url(../images/banner-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.netizens-rating-section{
+  font-size: 20px;
+  height: 190px;
+  width: 100%;
+}
+
+.netizens-about-left{
+  width: 100%;
+  padding: 20px;
+}
+.netizens-about-left img{
+  width: 100%;
+}
+.netizens-about-right{
+  width: 50%;
+        padding: 20px;
+}
+
+.netizens-about-section {
+    height: 600px;
+}
+.netizens-about-right .netizens-about-section-image{
+  width: 100%;
+}
+
+.netizens-about-right .netizens-discover-icon{
+  width: 20%;
+}
+
+.banner-slider {
+    float: right;
+    vertical-align: bottom;
+    margin-top: 420px;
+    margin-right: 40px;
+}
+
+.netizens-contact-us-section .netizens-contact-us-left {
+    width: 50%;
+}
+
+.netizens-contact-us-section .netizens-contact-us-left {
+    width: 50%;
+    padding: 15px;
+}
+
+.netizens-contact-us-section .netizens-contact-us-right {
+    width: 50%;
+    padding: 15px;
+}
+
+.netizens-about-right-discover img{
+  width:100%;
+}
+.netizens-contact-us-section {
+    height: 650px;
+}
+
+.netizens-top-right-icons{
+  display: none;
+}
+
+.netizens-contact-top{
+  font-size: 13px;
+}
+
+.netizens-contact-top img{
+  padding-left: 0px;
 }
