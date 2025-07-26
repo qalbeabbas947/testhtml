@@ -10,9 +10,6 @@
     /* padding-top: 20px; */
     background-color: #F5F5F5;
 }
-.netizens-about-section {
-  width: 100%;
-}
 
 .netizens-banner-section {
     height: 522px;
@@ -39,9 +36,6 @@
         padding: 20px;
 }
 
-.netizens-about-section {
-    height: 600px;
-}
 .netizens-about-right .netizens-about-section-image{
   width: 100%;
 }
@@ -57,26 +51,10 @@
     margin-right: 40px;
 }
 
-.netizens-contact-us-section .netizens-contact-us-left {
-    width: 50%;
-}
-
-.netizens-contact-us-section .netizens-contact-us-left {
-    width: 50%;
-    padding: 15px;
-}
-
-.netizens-contact-us-section .netizens-contact-us-right {
-    width: 50%;
-    padding: 15px;
-}
-
 .netizens-about-right-discover img{
   width:100%;
 }
-.netizens-contact-us-section {
-    height: 650px;
-}
+
 
 .netizens-top-right-icons{
   display: none;
